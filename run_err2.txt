@@ -1,9 +1,0 @@
-Watching for file changes with StatReloader
-[19/Mar/2026 12:34:04] "GET /api/schema/swagger-ui/ HTTP/1.1" 200 4471
-D:\BYTO\LMS\books\serializers.py: Warning [BookViewSet > BookSerializer]: unable to resolve type hint for function "availability_status". Consider using a type hint or @extend_schema_field. Defaulting to string.
-D:\BYTO\LMS\transactions\views.py: Warning [BorrowTransactionViewSet]: Failed to obtain model through view's queryset due to raised exception. Prevent this either by setting "queryset = Model.objects.none()" on the view, checking for "getattr(self, "swagger_fake_view", False)" in get_queryset() or by simply using @extend_schema. (Exception: 'AnonymousUser' object has no attribute 'role')
-D:\BYTO\LMS\transactions\serializers.py: Warning [BorrowTransactionViewSet > BorrowTransactionSerializer]: unable to resolve type hint for function "is_overdue". Consider using a type hint or @extend_schema_field. Defaulting to string.
-D:\BYTO\LMS\transactions\views.py: Warning [BorrowTransactionViewSet]: could not derive type of path parameter "id" because it is untyped and obtaining queryset from the viewset failed. Consider adding a type to the path (e.g. <int:id>) or annotating the parameter type with @extend_schema. Defaulting to "string".
-D:\BYTO\LMS\transactions\views.py: Error [IssueBookView]: unable to guess serializer. This is graceful fallback handling for APIViews. Consider using GenericAPIView as view base class, if view is under your control. Either way you may want to add a serializer_class (or method). Ignoring view for now.
-D:\BYTO\LMS\transactions\views.py: Error [ReturnBookView]: unable to guess serializer. This is graceful fallback handling for APIViews. Consider using GenericAPIView as view base class, if view is under your control. Either way you may want to add a serializer_class (or method). Ignoring view for now.
-[19/Mar/2026 12:34:05] "GET /api/schema/ HTTP/1.1" 200 57508

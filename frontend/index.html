@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="glass-container">
+        <div class="login-box">
+            <h1>Library Portal</h1>
+            <p>Welcome back. Please login to continue.</p>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label>Username</label>
+                    <input type="text" id="username" required placeholder="Enter your username">
+                </div>
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+            <p id="loginError" class="error-msg"></p>
+        </div>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

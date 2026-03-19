@@ -43,3 +43,43 @@ Performing system checks...
 
 System check identified no issues (0 silenced).
 Watching for file changes with StatReloader
+[19/Mar/2026 12:47:44] "OPTIONS /api/users/login/ HTTP/1.1" 200 0
+[19/Mar/2026 12:47:44] "POST /api/users/login/ HTTP/1.1" 200 483
+[19/Mar/2026 12:47:44] "OPTIONS /api/users/manage/ HTTP/1.1" 200 0
+D:\BYTO\LMS\venv\Lib\site-packages\rest_framework\pagination.py:208: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'users.models.User'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Mar/2026 12:47:44] "GET /api/users/manage/ HTTP/1.1" 200 582
+[19/Mar/2026 12:47:45] "OPTIONS /api/books/ HTTP/1.1" 200 0
+[19/Mar/2026 12:47:45] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+D:\BYTO\LMS\venv\Lib\site-packages\rest_framework\pagination.py:208: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'books.models.Book'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Mar/2026 12:47:45] "GET /api/books/ HTTP/1.1" 200 774
+[19/Mar/2026 12:47:45] "GET /api/transactions/history/ HTTP/1.1" 200 52
+[19/Mar/2026 12:48:03] "OPTIONS /api/transactions/issue/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:03] "POST /api/transactions/issue/ HTTP/1.1" 201 505
+[19/Mar/2026 12:48:03] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:03] "OPTIONS /api/books/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:03] "GET /api/books/ HTTP/1.1" 200 774
+[19/Mar/2026 12:48:03] "GET /api/transactions/history/ HTTP/1.1" 200 557
+[19/Mar/2026 12:48:21] "OPTIONS /api/transactions/return/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:21] "POST /api/transactions/return/ HTTP/1.1" 200 515
+[19/Mar/2026 12:48:21] "OPTIONS /api/books/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:21] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:21] "GET /api/books/ HTTP/1.1" 200 774
+[19/Mar/2026 12:48:21] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:26] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:27] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:27] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:28] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:28] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:28] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:28] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:28] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:30] "OPTIONS /api/books/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:30] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:30] "GET /api/books/ HTTP/1.1" 200 774
+[19/Mar/2026 12:48:30] "GET /api/transactions/history/ HTTP/1.1" 200 567
+[19/Mar/2026 12:48:53] "OPTIONS /api/books/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:53] "OPTIONS /api/transactions/history/ HTTP/1.1" 200 0
+[19/Mar/2026 12:48:53] "GET /api/books/ HTTP/1.1" 200 774
+[19/Mar/2026 12:48:53] "GET /api/transactions/history/ HTTP/1.1" 200 567
